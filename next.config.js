@@ -68,7 +68,8 @@ module.exports = withBundleAnalyzer({
   },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
-      test: /\.svg$/,
+      test: /\.(svg|glsl|vs|fs|vert|frag)$/,
+      exclude: /node_modules/,
       use: ['@svgr/webpack'],
     })
 

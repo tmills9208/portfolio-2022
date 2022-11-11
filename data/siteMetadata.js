@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Tmills9208 - Portfolio',
   author: 'Tyler Mills',
-  headerTitle: 'Tmills9208-Portfolio',
+  headerTitle: 'Tmills9208 - Tyler Mills',
   description:
     'A blog created with Next.js and Tailwind.css, cloned from an MIT Template provided on Github',
   language: 'en-us',

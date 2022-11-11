@@ -1,0 +1,22 @@
+---
+title: 'Pure Node.js Exploration'
+date: '2022-04-11'
+tags: ['github', 'guide']
+draft: false
+summary: 'I took some time to explore node.js as a backend, without using Express.js in order to learn more in-depth about how a base server would work.'
+---
+
+# Pure Node.js Exploration
+
+![Nodejs-Screenshot](/static/images/blog/node-js1.png)
+
+As I began preparing to enter the work force, I began to look into more techs that most employers are looking into. I know express.js is widely used, but the purpose of this part 1 project is to use node.js as bare as possible, meaning no major frameworks (even though express.js is minimal, will explore on part 2). Using mysql and common-js modules as much as possible (however, Typescript kind of blurs the line here with preferring to use ES6 imports).
+
+So far, the project uses / implements:
+
+- Independent controllers and services that are injected into eachother.
+- Generic iDbController and iServices interfaces to generate mocks for testing later.
+- Usage of basic http and node.js functions and packages, using Typescript to keep the code better organized and clean.
+- Usage of Jest for Unit/Integration testing (working on it)
+- Basic SQL CRUD Functions for each service/controller, utilizing common industry standards.
+- Git submodules for usage across all other projects with the developed and constructed iControllers and iServices.
