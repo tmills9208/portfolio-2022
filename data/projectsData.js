@@ -2,9 +2,9 @@ const projectsData = [
   {
     title: 'Food Ideas',
     tags: ['Javascript', 'HTML', 'CSS', 'Node.js', 'College', 'UI/UX', 'Mobile', 'OpenAPI'],
-    date: '2020-25-04',
+    date: '2020-20-12',
     description: `A website that allows users to find random meals and save them for later. A simple website to demonstrate: A video background for users, Fetching data from an open api using fetch.then, Saving user preferences and recipes through localStorage`,
-    imgSrc: '/static/images/projects/discordbootlegimage.png',
+    imgSrc: '/static/images/projects/foodIdeas.png',
     href: '',
     repoHref: 'https://github.com/tmills9208/Food-Ideas',
   },
